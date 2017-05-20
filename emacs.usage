@@ -1,0 +1,75 @@
+###itzak fullunull@gmail.com at 2017.5.21
+
+Emacs Usage Mannal(Hot Key Reference)
+
+A. File Operator
+
+C-x C-f : Specify a new file's name, to edit the file
+    	  Read an existing file into an Emacs buffer
+C-x C-s : Save current buffer to its file
+C-x C-w : Write current buffer to another file
+C-x i : Insert another file into current buffer
+C-x d : Open Directory
+
+C-x 1 : Make selected window fill whole frame
+C-x 2 : Make new window below selected one
+C-x 3 : Make new window on right of selected one
+
+C-x C-c : Save unsaved buffers, then exit
+
+B. Edit
+
+C-u : Undo last operation
+C-@ : Mark
+C-w : Cut (kill) text in region between mark and current position
+M-w : Copy text in region between mark and current position
+C-y : Paste (yank) text most recently cut/copied
+
+C-x h : Select All
+C-M-\/C-M-q : Intent Sexq
+
+C-a : Head
+C-e : Tail
+M-a : Previous Sentence
+M-e : Next Sentence
+M-b : Previous Word
+M-f : Next Word
+C-b : Previous Character
+C-f : Next Character
+
+C-p : Previous Line
+C-n : Next Line
+
+M-v : Previous Screen
+C-v : Next Screen
+
+M-{ : Previous Paragraph
+M-} : Next Paragraph
+M-< : Home
+M-> : End
+
+BackSpace : Delete Previous Character
+M-BackSpace/C-BackSpace/M-Delete : Delete Previous Word
+Delete/C-d : Delete Next Character
+C-Delete : Delete Next Word
+M-/ : Auto Complete
+
+C-k : Remove next Sentence from cursor position
+M-k : Remove all the context from cursor position to the end of line
+
+C-_ : Undo
+C-/ : Redoq
+C-S-BackSpace : Kill the current line
+
+C. Tools
+
+M-! : Invoke a shell command and catch its output
+M-$ : Spell-check word at cursor
+
+D.Buffers
+
+C-x C-b : Pop up a window listing all Emacs buffers
+
+Special
+M-x : Function
+
